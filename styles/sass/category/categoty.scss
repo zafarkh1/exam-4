@@ -1,0 +1,119 @@
+@import "../reset";
+@import "../navbar";
+
+#startup {
+  background-color: #f4f0f8;
+  padding: 10rem 0 5rem;
+  .container {
+    h2 {
+      font-size: 56px;
+      line-height: 64px;
+      font-weight: 700;
+      font-family: "Sen";
+    }
+    p {
+      width: 500px;
+      text-align: center;
+      margin-block: 2rem;
+    }
+    span {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-family: "Inter";
+    }
+  }
+}
+
+#searching {
+  padding-block: 3rem;
+  .container {
+    input {
+      border-radius: 5px;
+      padding: 1rem;
+      width: 100%;
+    }
+    .card-wrapper {
+      margin-top: 3rem;
+			.myCard {
+				margin-bottom: 2rem;
+				img {
+					object-fit: cover;
+				}
+				.right {
+					h5 {
+						color: purple;
+					}
+					h2 {
+						margin: 2rem 0 5rem;
+						font-size: 36px;
+					}
+				}
+			}
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #startup {
+    padding: 8rem 0 4rem;
+    .container {
+      h2 {
+        font-size: 44px;
+        line-height: 55px;
+      }
+      p {
+        width: 400px;
+        margin-block: 1.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  #startup {
+    padding: 8rem 0 4rem;
+    .container {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        width: 350px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #startup {
+    padding: 6rem 0 4rem;
+    .container {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        width: 300px;
+        margin-top: 0.8rem;
+        font-size: 14px;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  #startup {
+    padding: 6rem 0 4rem;
+    .container {
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        width: 260px;
+      }
+    }
+  }
+}
+
+@import "../footer";

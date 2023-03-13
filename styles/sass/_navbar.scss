@@ -1,0 +1,30 @@
+.navbar {
+	background-color: #232536;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	.container {
+		.navbar-toggler {
+			background-color: #fff;
+		}
+		.collapse {
+			.navbar-nav {
+				li {
+					a {
+						color: #fff;
+						font-family: "Inter";
+					}
+					button {
+						color: #000;
+						background-color: #fff;
+						padding: 1rem 3rem;
+						font-family: "Sen";
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+}

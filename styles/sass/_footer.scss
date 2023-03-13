@@ -1,0 +1,20 @@
+#footer {
+	background-color: #232536;
+	color: hsla(0, 0%, 100%, 0.778);
+	i {
+		color: #6D6E76;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	#footer {
+		p {
+			font-size: 14px;
+		}
+	i {
+		color: #6D6E76;
+		font-size: 1rem;
+	}
+}
+}

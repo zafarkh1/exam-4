@@ -1,0 +1,126 @@
+#catagory {
+  padding-block: 3rem;
+  .container {
+    .row.wrapper {
+      .col {
+        img {
+          margin-bottom: 10px;
+        }
+        padding: 1rem 1.8rem;
+        padding-right: 1rem;
+        border: 1px #6d6e76 solid;
+        border-radius: 5px;
+        &:hover {
+          background-color: #ffd050;
+        }
+        &.startup {
+          img {
+            padding: 12px;
+            background-color: #fbf6ea;
+            border-radius: 21%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #catagory {
+    .container {
+      .row.wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #catagory {
+  padding-inline: 1rem;
+  .container {
+    .row.wrapper {
+      .col {
+        padding: 1rem 1rem;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+}
+
+@media (max-width: 440px) {
+	#catagory {
+  padding-inline: 1rem;
+  .container {
+		h2 {
+			margin-bottom: 1.8rem !important;
+		}
+    .row.wrapper {
+			grid-template-columns: 1fr;
+      .col {
+				display: flex;
+				flex-wrap: wrap;
+				// flex-direction: column;
+				align-items: center;
+        padding: 1rem 1rem;
+        padding-right: 10px;
+				padding-bottom: 0;
+				img {
+					margin-left: 5rem;
+					margin-right: 1rem;
+				}
+      }
+    }
+  }
+}
+}
+
+@media (max-width: 360px) {
+	#catagory {
+  .container {
+		h2 {
+			margin-bottom: 1.8rem !important;
+			font-size: 20px !important;
+		}
+    .row.wrapper {
+      .col {
+				font-size: 13px;
+        padding-right: 0;
+				img {
+					margin-left: 3rem;
+					margin-right: 1rem;
+				}
+				h3 {
+					font-size: 18px !important;
+				}
+      }
+    }
+  }
+}
+}
+
+@media (max-width: 300px) {
+	#catagory {
+  .container {
+		h2 {
+			margin-bottom: 1.8rem !important;
+			font-size: 20px !important;
+		}
+    .row.wrapper {
+      .col {
+				font-size: 13px;
+        padding-right: 0;
+				img {
+					margin-left: 2rem;
+					margin-right: 0.7rem;
+				}
+				h3 {
+					font-size: 18px !important;
+				}
+      }
+    }
+  }
+}
+}
