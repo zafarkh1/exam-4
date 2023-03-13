@@ -13,7 +13,7 @@ fetch(url)
     ).slice(-3);
     const render = articles.map((element) => {
       return `
-			<div class="card" style="width: 25rem;">
+			<div class="card" style="width: 95%;">
 				<img src="${element.urlToImage}" class="card-img-top" alt="${element.title}">
  					<div class="card-body">
  						<p>By ${element.author} l ${element.publishedAt}</p>
