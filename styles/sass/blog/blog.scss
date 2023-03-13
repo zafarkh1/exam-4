@@ -1,0 +1,28 @@
+@import "../reset";
+@import "../navbar";
+@import "../footer";
+
+#showcase {
+	padding: 8rem 0 6rem;
+	.container {
+		.text {
+			padding: 3rem 8rem;
+			.intro {
+				.data {
+					span {
+						color: purple;
+					}
+				}
+			}
+			h1 {
+				font-size: 48px;
+				margin-block: 2rem;
+				font-weight: 700;
+			}
+			p.fw-bolder {
+				font-size: 24px;
+				margin-block: 2rem;
+			}
+		}
+	}
+}

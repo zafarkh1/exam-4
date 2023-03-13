@@ -7,11 +7,8 @@ fetch(url)
   .then((response) => response.json())
   .then((data) => {
     const articles = data.articles;
-    console.log(articles);
     const render = articles.map((element) => {
-      console.log(element.title);
-      console.log(element.title);
-      console.log(element.title);
+			
       return `
 		 <div class="myCard d-flex gap-5">
 					<img src="${element.urlToImage}" alt="${element.author}">
@@ -24,4 +21,7 @@ fetch(url)
 		`;
     });
     cardWrapper.innerHTML = render.join("");
+  })
+  .catch((error) => {
+    throw error;
   });
