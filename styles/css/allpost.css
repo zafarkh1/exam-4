@@ -108,6 +108,22 @@ ul {
   padding: 1rem;
   width: 100%;
 }
+#searching .container .posts .card-wrapper {
+  margin-top: 3rem;
+}
+#searching .container .posts .card-wrapper .myCard {
+  margin-bottom: 2rem;
+}
+#searching .container .posts .card-wrapper .myCard img {
+  max-width: 50%;
+}
+#searching .container .posts .card-wrapper .myCard .right h5 {
+  color: purple;
+}
+#searching .container .posts .card-wrapper .myCard .right h2 {
+  margin: 2rem 0 5rem;
+  font-size: 36px;
+}
 
 @media (max-width: 990px) {
   #showcase .container .right {

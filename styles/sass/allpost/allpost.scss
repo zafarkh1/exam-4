@@ -48,6 +48,26 @@
 			padding: 1rem;
 			width: 100%;
 		}
+		.posts {
+			.card-wrapper {
+      margin-top: 3rem;
+			.myCard {
+				margin-bottom: 2rem;
+				img {
+					max-width: 50%;
+				}
+				.right {
+					h5 {
+						color: purple;
+					}
+					h2 {
+						margin: 2rem 0 5rem;
+						font-size: 36px;
+					}
+				}
+			}
+    }
+		}
 	}
 }
 

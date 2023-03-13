@@ -84,8 +84,7 @@ ul {
   margin-bottom: 2rem;
 }
 #searching .container .card-wrapper .myCard img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  max-width: 50%;
 }
 #searching .container .card-wrapper .myCard .right h5 {
   color: purple;
