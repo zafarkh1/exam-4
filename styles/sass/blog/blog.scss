@@ -3,26 +3,140 @@
 @import "../footer";
 
 #showcase {
-	padding: 8rem 0 6rem;
-	.container {
-		.text {
-			padding: 3rem 8rem;
-			.intro {
-				.data {
-					span {
-						color: purple;
-					}
+  padding: 8rem 0 6rem;
+  .container {
+    #form {
+      padding: 0 10rem;
+      input {
+        padding: 1rem;
+      }
+      button {
+        width: 20%;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        border-radius: 6px;
+        background-color: rgb(247, 170, 4);
+      }
+    }
+    &.none {
+      display: none;
+    }
+    .text {
+      padding: 3rem 8rem;
+      .intro {
+        .data {
+          span {
+            color: purple;
+          }
+        }
+      }
+      h1 {
+        font-size: 48px;
+        margin-block: 2rem;
+        font-weight: 700;
+      }
+      p.fw-bolder {
+        font-size: 24px;
+        margin-block: 2rem;
+      }
+    }
+  }
+}
+
+.wrapper {
+  margin-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  #showcase {
+    padding: 6rem 0 6rem;
+    .container {
+      #form {
+        padding: 0 6rem;
+        button {
+          width: 30%;
+        }
+      }
+      .text {
+        padding: 3rem 6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #showcase {
+    .container {
+      #form {
+        padding: 0 4rem;
+        button {
+          width: 35%;
+        }
+      }
+      .text {
+        padding: 3rem 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #showcase {
+    .container {
+      #form {
+        padding: 0 3rem;
+        button {
+          width: 45%;
+        }
+      }
+			.img {
+				margin-top: -2rem;
+			}
+			.text {
+        padding: 2rem 1rem 1rem;
+				h1 {
+					text-align: center;
+					font-size: 32px;
+					margin-block: 1rem;
 				}
+				p.fw-bolder {
+        font-size: 20px;
+        margin-block: 1rem;
+				text-align: center;
+      }
+			p {
+				font-size: 14px;
 			}
-			h1 {
-				font-size: 48px;
-				margin-block: 2rem;
-				font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: 515px) {
+  #showcase {
+    .container {
+      #form {
+        padding: 0 1.5rem;
+        button {
+          width: 55%;
+        }
+      }
+			.text {
+				padding: 2rem 5px 1rem;
 			}
-			p.fw-bolder {
-				font-size: 24px;
-				margin-block: 2rem;
-			}
-		}
-	}
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #showcase {
+    .container {
+      #form {
+        padding: 0 0.8rem;
+        button {
+          width: 65%;
+        }
+      }
+    }
+  }
 }
