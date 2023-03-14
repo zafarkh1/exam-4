@@ -7,14 +7,17 @@ fetch(url)
   .then((response) => response.json())
   .then((data) => {
     const articles = data.articles;
-    const render = articles.map((element) => {
-			
+    const filteredArticles = articles.filter((element) => {
+      return element.author && element.author.length <= 13 && element.urlToImage && (element.urlToImage.endsWith(".jpg") || element.urlToImage.endsWith(".png"));
+    });
+    const render = filteredArticles.map((element) => {
+			console.log(element.urlToImage);
       return `
-		 <div class="myCard d-flex gap-5">
+		 <div class="myCard d-lg-flex flex-lg-row gap-5">
 					<img src="${element.urlToImage}" alt="${element.author}">
 					<div class="right">
 						<h5>Business</h5>
-						<h2 class="fw-bolder">${element.author}</h2>
+						<h2>${element.author}</h2>
 						<p>${element.description}</p>
 					</div>
 				</div>

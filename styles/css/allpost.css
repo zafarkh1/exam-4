@@ -63,7 +63,6 @@ ul {
   }
   #footer i {
     color: #6D6E76;
-    font-size: 1rem;
   }
 }
 #showcase {
@@ -121,8 +120,9 @@ ul {
   color: purple;
 }
 #searching .container .posts .card-wrapper .myCard .right h2 {
-  margin: 2rem 0 5rem;
+  margin: 2rem 0 4rem;
   font-size: 36px;
+  font-weight: 700;
 }
 
 @media (max-width: 990px) {
@@ -132,6 +132,16 @@ ul {
   }
   #showcase .container .left {
     width: 100%;
+  }
+  #searching {
+    padding-block: 3rem;
+  }
+  #searching .container .posts .card-wrapper .myCard img {
+    max-width: 100%;
+  }
+  #searching .container .posts .card-wrapper .myCard .right h2 {
+    margin: 2rem 0 3rem;
+    font-size: 36px;
   }
 }
 @media (max-width: 550px) {
@@ -165,6 +175,19 @@ ul {
   #showcase .container .left button {
     padding: 1rem 3rem;
   }
+  #searching {
+    padding-block: 3rem;
+  }
+  #searching .container .posts .card-wrapper .myCard img {
+    max-width: 100%;
+  }
+  #searching .container .posts .card-wrapper .myCard .right h2 {
+    margin: 2rem 0 1rem;
+    font-size: 24px;
+  }
+  #searching .container .posts .card-wrapper .myCard .right p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 380px) {
   #showcase .container .left {
@@ -186,5 +209,18 @@ ul {
   }
   #showcase .container .left button {
     padding: 0.7rem 2rem;
+  }
+  #searching {
+    padding-block: 3rem;
+  }
+  #searching .container .posts .card-wrapper .myCard img {
+    max-width: 100%;
+  }
+  #searching .container .posts .card-wrapper .myCard .right h2 {
+    margin: 1.5rem 0 1rem;
+    font-size: 24px;
+  }
+  #searching .container .posts .card-wrapper .myCard .right p {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=allpost.css.map */
