@@ -122,6 +122,7 @@ ul {
   #showcase {
     background: radial-gradient(30.56% 76.04% at 74.58% 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../images/home/showcase.png) no-repeat left center/cover;
     padding: 8rem 0;
+    height: 70vh;
   }
   #showcase .container h5 {
     font-size: 14px;
