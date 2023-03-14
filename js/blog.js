@@ -5,13 +5,14 @@ const heading = document.getElementById("heading");
 const title = document.getElementById("title");
 const paragraph = document.getElementById("paragraph");
 const job = document.getElementById("interests");
-const photo = document.getElementById("photo");
+const fileInput = document.getElementById("photo");
 const selfPhoto = document.getElementById("selfPhoto");
+const imagePreview = document.getElementById("image-preview");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-	let currentDate = new Date();
+  let currentDate = new Date();
   let year = currentDate.getFullYear();
   let month = currentDate.getMonth() + 1; // Add 1 because getMonth() returns 0-based index
   let day = currentDate.getDate();
@@ -23,6 +24,16 @@ form.addEventListener("submit", (e) => {
   if (day < 10) {
     day = "0" + day;
   }
+  // fileInput.addEventListener("change", (event) => {
+  //   const file = event.target.files[0];
+  //   const reader = new FileReader();
+
+  //   reader.addEventListener("load", () => {
+  //     imagePreview.src = reader.result;
+  //   });
+
+  //   reader.readAsDataURL(file);
+  // });
 
   let formattedDate = year + "-" + month + "-" + day;
 

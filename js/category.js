@@ -5,7 +5,7 @@ let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&api
 fetch(url).then((response) => response.json()).then((data) => {
 	const articles = data.articles
 	const filteredArticles = articles.filter((element) => {
-		return element.urlToImage && element.urlToImage !== null
+		return element.urlToImage && element.urlToImage !== null && element.author
 	})
 	const render = filteredArticles.map((element) => {
 		return `
