@@ -151,6 +151,7 @@ ul {
   #showcase {
     background: radial-gradient(30.56% 76.04% at 84.58% 0%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../images/home/showcase.png) no-repeat center/cover;
     padding: 8rem 0;
+    height: 90vh;
   }
   #showcase .container p {
     width: 350px;
