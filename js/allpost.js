@@ -1,4 +1,4 @@
-let key = "1e31a6fe70964dccbb73ff1df7541bb0";
+let key = "f31f67c6bb5f45598fcb527a93b05bff";
 let url = `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${key}`;
 
 const cardWrapper = document.querySelector(".card-wrapper");

@@ -1,5 +1,5 @@
 const cardWrapper = document.querySelector(".card-wrapper");
-let myKey = "1e31a6fe70964dccbb73ff1df7541bb0";
+let myKey = "f31f67c6bb5f45598fcb527a93b05bff";
 const data = "2023-03-12";
 const keyword = "apple";
 let url = `https://newsapi.org/v2/everything?q=${keyword}&from=${data}&to=${data}&sortBy=publishedAt&apiKey=${myKey}`;
